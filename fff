@@ -16,21 +16,10 @@
   height: 249.34px;
 }
 /* Для персонажей и людей */
-[class *= 'b-catalog_entry'] > a[href *= 'characters/503-'] img {
+[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
   opacity: 0;
 }
 
-/* Для аниме, манги и ранобэ */
-.b-catalog_entry > a[href *= 'mangas/3526-'] img,
-.entry-tooltip_container > .image-link[href *= 'mangas/3526-'] img {
-  opacity: 0;
-}
-
-/* Всё вместе – группа селекторов */
-[class *= 'b-catalog_entry'] > a[href *= 'characters/503-'] img,
-.b-catalog_entry > a[href *= 'mangas/3526-'] img,
-.entry-tooltip_container > .image-link[href *= 'mangas/3526-'] img {
-  opacity: 0;
 }
 /* Смена обложки (персонаж) Луффи */
 .b-catalog_entry a[href *= 'characters/40-'] .image-cutter,
