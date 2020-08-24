@@ -1,0 +1,5 @@
+/* Смена обложки (персонаж) Луффи */
+.b-catalog_entry a[href *= 'characters/40-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/40-'] {
+  background-image: url(https://sun1-94.userapi.com/mSS9W8RZfUGIvNjiIPh3Ipod5V-4QpFsQBjQ5Q/aaHXO7ppMUQ.jpg);
+}
