@@ -1,0 +1,39 @@
+/* СМЕНА ОБЛОЖЕК */
+
+/* Общие настройки обложек */
+.b-catalog_entry .cover .image-cutter,
+.b-catalog_entry-tooltip > a,
+.entry-tooltip_container > .image-link {
+  background-size: cover;
+  background-position: top center;
+}
+
+/* Изменение контейнера во всплывающей подсказке */
+.b-catalog_entry-tooltip > a,
+.entry-tooltip_container > .image-link {
+  float: left;
+  width: 160px;
+  height: 249.34px;
+}
+/* Для персонажей и людей */
+[class *= 'b-catalog_entry'] > a[href *= 'characters/503-'] img {
+  opacity: 0;
+}
+
+/* Для аниме, манги и ранобэ */
+.b-catalog_entry > a[href *= 'mangas/3526-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/3526-'] img {
+  opacity: 0;
+}
+
+/* Всё вместе – группа селекторов */
+[class *= 'b-catalog_entry'] > a[href *= 'characters/503-'] img,
+.b-catalog_entry > a[href *= 'mangas/3526-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/3526-'] img {
+  opacity: 0;
+}
+/* Смена обложки (персонаж) Луффи */
+.b-catalog_entry a[href *= 'characters/40-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/40-'] {
+  background-image: url(https://sun1-94.userapi.com/mSS9W8RZfUGIvNjiIPh3Ipod5V-4QpFsQBjQ5Q/aaHXO7ppMUQ.jpg);
+}
