@@ -20,13 +20,6 @@
   opacity: 0;
 }
 
-/* Для аниме, манги и ранобэ */
-.b-catalog_entry > a[href *= 'mangas/3526-'] img,
-.entry-tooltip_container > .image-link[href *= 'mangas/3526-'] img {
-  opacity: 0;
-}
-
-
 }
 /* Смена обложки (персонаж) Луффи */
 .b-catalog_entry a[href *= 'characters/40-'] .image-cutter,
