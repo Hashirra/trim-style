@@ -80,3 +80,7 @@
 [class *= 'b-catalog_entry'] > a[href *= 'characters/141202-'] img {
     opacity: 0;
 }
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/601-'] img {
+    opacity: 0;
+}
