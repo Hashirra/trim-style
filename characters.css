@@ -96,3 +96,8 @@
   background-image: url(https://pm1.narvii.com/6495/e3cf728be8206591538617199953ef65beec8809_hq.jpg);
 }
 
+/* Алукард */
+.b-catalog_entry a[href *= 'characters/601-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/601-'] {
+  background-image: url(https://cs12.pikabu.ru/post_img/2019/01/28/10/og_og_1548696224229720072.jpg);
+}
