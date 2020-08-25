@@ -1,0 +1,702 @@
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("truetype"), url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2")
+}
+
+.buttons .item-save::before,
+.buttons .item-moderation::before,
+.buttons .item-preview::before,
+.buttons .item-unpreview::before,
+.buttons .item-quote::before,
+.buttons .item-reply::before,
+.buttons .item-edit::before,
+.buttons .item-delete::before,
+.buttons .item-delete-confirm::before,
+.buttons .item-apply::before,
+.buttons .item-request-confirm::before,
+.buttons .item-cancel::before,
+.buttons .item-request-reject::before,
+.buttons .item-delete-cancel::before,
+.buttons .item-moderation-cancel::before,
+.buttons .item-subscribe::before,
+.buttons .item-offtopic::before,
+.buttons .item-summary::before,
+.buttons .item-spoiler::before,
+.buttons .item-abuse::before,
+.buttons .item-ban::before,
+.buttons .item-ignore::before,
+.buttons .item-ignore.selected::before,
+.headline>a::before,
+.midheadline>a::before,
+.subheadline>a::before,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .plus::before,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .edit::before,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger-arrow::before,
+.b-forums .forum input+.link::before,
+.p-contests .match-day .match-link .voted::before,
+.p-contests .match-day .match-link .winner::before,
+.p-contests .match-day .match-link .loser::before,
+.p-contests .match-day .match-link .created::before,
+.p-contests .match-day .match-link .started::before,
+.p-contests .match-day .match-link .finished::before,
+.item-mobile::before,
+.buttons .editor-controls .b-tooltipped::before,
+header.head h1 a.back::before,
+header.head h2 a.back::before,
+.subheadline-buttons .item-edit::before,
+.profile-actions>a::before,
+.b-collection-filters .mylist-block .item-sign::before,
+.b-collection_item .delete::before,
+.b-collection_item .drag-handle::before,
+.b-image .delete::before,
+.b-image .confirm::before,
+.b-image .cancel::before,
+.b-image .mobile-edit::before,
+.b-list_switchers .switcher::before,
+.b-subposter-action::before,
+.b-user_rate .rate-show .rate-number .item-add::before,
+.p-animes_collection-index .pagination .link::before,
+.p-recommendations-index .pagination .link::before,
+.p-dashboards-show .v2 .headline .buttons .options::before,
+.p-dialogs .misc-links>a::before,
+.p-profiles-show .about .item-edit::before,
+.b-stats_bar .compatibility a[href$='=similar']::before,
+.b-stats_bar .compatibility .text:first-child::before,
+.p-messages .mass-actions .action a::before,
+.p-profiles-favorites .item-back::before,
+.p-user_rates-index .list-lines tr.edit-form .remove::before,
+.p-user_rates-index .list-posters .user_rate .edit-user_rate::before,
+.l-top_menu-v2 .logo-container::before,
+.l-top_menu-v2 .icon-other::before,
+.l-top_menu-v2 .menu-icon::before,
+.l-top_menu-v2 .menu-dropdown>span::before,
+.l-top_menu-v2 .submenu>a::before,
+.l-top_menu-v2 .global-search .clear::before,
+.l-top_menu-v2 .global-search .search-marker::before,
+.l-page .menu-toggler .toggler::before,
+#toast-container>.toast-error::before,
+.tooltip-inner .close::before,
+.b-ban .spoiler.collapse::before,
+.b-log_entry .spoiler.collapse::before,
+.b-user_rate_log .spoiler.collapse::before,
+.b-achievement .gained::before,
+.b-achievements_notifier .achievement .content .name .icon::before,
+.b-add_to_list .plus::before,
+.b-add_to_list .edit::before,
+.b-add_to_list.planned .edit::before,
+.b-add_to_list.on_hold .edit::before,
+.b-add_to_list.watching .edit::before,
+.b-add_to_list.rewatching .edit::before,
+.b-add_to_list.completed .edit::before,
+.b-add_to_list.dropped .edit::before,
+.b-add_to_list .trigger-arrow::before,
+.b-add_to_list.expanded .trigger-arrow::before,
+.b-catalog_entry.planned .image-decor::before,
+.b-catalog_entry.watching .image-decor::before,
+.b-catalog_entry.completed .image-decor::before,
+.b-catalog_entry.rewatching .image-decor::before,
+.b-catalog_entry.on_hold .image-decor::before,
+.b-catalog_entry.dropped .image-decor::before,
+.b-collection-filters .b-block_list li::before,
+.b-collection-filters .b-block_list li .b-question::before,
+.b-collection_search .field .clear::before,
+.b-comments .comments-collapser::before,
+body[data-locale] .b-feedback>.marker-positioner>.marker-text::before,
+.b-height_shortener .expand::before,
+.b-image .marker::before,
+.b-news_line-topic .status-line .comments::before,
+.b-news_wall-topic .status-line .comments::before,
+.b-rate .stars::before,
+.b-review_votes::before,
+.b-shiki_editor footer .about-bb_codes::before,
+.b-status-line .section.created_at time::before,
+.b-status-line .section.changed_at time::before,
+.b-status-line .section.additional .collection-size::before,
+.b-status-line .section.additional .comments::before,
+.b-status-line .section.additional .b-review_votes::before,
+.b-to-top .arrow::before,
+.b-topic .footer-vote .star::before,
+.b-topic .footer-vote .vote-group .vote::before,
+.b-video .video-link::before,
+.b-video .marker::before,
+[data-icon]::before,
+.p-animes-show .c-info-right .watch-online .b-link_button::before,
+.p-mangas-show .c-info-right .watch-online .b-link_button::before,
+.p-ranobe-show .c-info-right .watch-online .b-link_button::before,
+.b-contest_match .prev-match::before,
+.b-contest_match .next-match::before,
+.p-profiles .profile-head .c-brief header h1.aliases::before,
+.p-profiles-favorites .cc-favourites.sortable .b-catalog_entry::before,
+.p-user_history-index .history-page .history-interval p .destroy::before {
+	display: block;
+	flex-shrink: 0;
+	width: 1em !important;
+	font-family: 'Material Icons' !important;
+	font-size: 24px !important;
+	font-style: normal;
+	font-weight: 400 !important;
+	line-height: 1 !important;
+	letter-spacing: normal;
+	text-transform: none;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+	overflow: hidden
+}
+
+.buttons .item-save::before,
+.buttons .item-moderation::before,
+.buttons .item-preview::before,
+.buttons .item-unpreview::before,
+.buttons .item-quote::before,
+.buttons .item-reply::before,
+.buttons .item-edit::before,
+.buttons .item-delete::before,
+.buttons .item-delete-confirm::before,
+.buttons .item-apply::before,
+.buttons .item-request-confirm::before,
+.buttons .item-cancel::before,
+.buttons .item-request-reject::before,
+.buttons .item-delete-cancel::before,
+.buttons .item-moderation-cancel::before,
+.buttons .item-subscribe::before,
+.buttons .item-offtopic::before,
+.buttons .item-summary::before,
+.buttons .item-spoiler::before,
+.buttons .item-abuse::before,
+.buttons .item-ban::before,
+.buttons .item-ignore::before,
+.buttons .item-ignore.selected::before,
+.headline>a::before,
+.midheadline>a::before,
+.subheadline>a::before,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .plus::before,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .edit::before,
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger-arrow::before,
+.b-forums .forum input+.link::before,
+.p-contests .match-day .match-link .voted::before,
+.p-contests .match-day .match-link .winner::before,
+.p-contests .match-day .match-link .loser::before,
+.p-contests .match-day .match-link .created::before,
+.p-contests .match-day .match-link .started::before,
+.p-contests .match-day .match-link .finished::before {
+	font-size: 18px !important
+}
+
+
+
+
+
+.l-top_menu-v2 .menu-icon,
+.l-top_menu-v2 .menu-dropdown {
+	margin-right: 0
+}
+
+.l-top_menu-v2 .menu-icon,
+.l-top_menu-v2 .menu-dropdown>span {
+	height: var(--menu-height)
+}
+
+.l-top_menu-v2 .menu-icon:focus,
+.l-top_menu-v2 .menu-dropdown>span:focus {
+	background-color: var(--color-menu-background-hover)
+}
+
+@media (min-width: 768px) {
+	.l-top_menu-v2 .menu-icon:hover,
+	.l-top_menu-v2 .menu-dropdown:hover>span {
+		background-color: var(--color-menu-background-hover)
+	}
+}
+
+.l-top_menu-v2 .menu-icon {
+	padding: 1em !important
+}
+
+.l-top_menu-v2 .menu-icon::before {
+	color: var(--color-menu-icon)
+}
+
+.l-top_menu-v2 .menu-icon.contest::after,
+.l-top_menu-v2 .menu-icon.mail:after {
+	top: auto;
+	width: var(--badge-size);
+	height: var(--badge-size);
+	margin-top: calc(var(--badge-size) / -2);
+	margin-left: calc(var(--badge-size) / 2);
+	background-color: var(--color-accent);
+	border: 0;
+	color: var(--color-text-on-accent);
+	font-family: inherit;
+	font-size: .75em;
+	font-weight: bold;
+	line-height: var(--badge-size)
+}
+
+.l-top_menu-v2 .menu-icon.contest::after {
+	content: attr(data-count)
+}
+
+.l-top_menu-v2 .menu-icon.trigger {
+	width: auto
+}
+
+.l-top_menu-v2 .menu-dropdown>span {
+	padding: 0 1em;
+	background: transparent
+}
+
+.l-top_menu-v2 .menu-dropdown>span a {
+	height: var(--menu-height);
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	font-size: inherit
+}
+
+
+
+.l-top_menu-v2 .submenu>a:active,
+.l-top_menu-v2 .submenu>a.active {
+	background: var(--color-overlay-text-pressed);
+	color: inherit
+}
+
+.l-top_menu-v2 .submenu>a::before {
+	margin-right: 16px;
+	color: var(--color-menu-icon)
+}
+
+@media (max-width: 767px) {
+	.l-top_menu-v2 .submenu>a::before {
+		margin-right: 32px
+	}
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.text {
+	display: flex;
+	position: static
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.unread {
+	margin-left: auto;
+	padding-left: .5em;
+	color: inherit;
+	font-size: .875em
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.unread span {
+	color: inherit
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.unread span:not(:last-child)::after {
+	background: var(--color-text-disabled);
+	height: 14px;
+	margin: -2px 4px 0
+}
+
+@media (min-width: 1025px) {
+	.l-top_menu-v2 .submenu>a.icon-mail:hover span.unread span {
+		color: inherit
+	}
+}
+
+.l-top_menu-v2 .icon-avatar img {
+	width: 24px;
+	height: 24px;
+	margin: 0;
+	border-radius: var(--border-round, 50%)
+}
+
+.l-top_menu-v2 .icon-anime_list::before,
+.l-top_menu-v2 .icon-manga_list::before,
+.l-top_menu-v2 .icon-characters::before {
+	background: none
+}
+
+@media (max-width: 767px) {
+	.l-top_menu-v2 .icon-anime_list::before,
+	.l-top_menu-v2 .icon-manga_list::before,
+	.l-top_menu-v2 .icon-characters::before {
+		height: auto;
+		margin: 0 16px 0 0
+	}
+}
+
+.l-top_menu-v2 .icon-anime_list::before {
+	content: 'video_library'
+}
+
+.l-top_menu-v2 .icon-manga_list::before {
+	content: 'library_books'
+}
+
+.l-top_menu-v2 .icon-characters::before {
+	content: 'face'
+}
+
+
+
+.l-top_menu-v2 .icon-home::before {
+	content: 'home'
+}
+
+.l-top_menu-v2 .icon-anime::before {
+	content: 'ondemand_video'
+}
+
+.l-top_menu-v2 .icon-manga::before {
+	content: 'photo_album'
+}
+
+.l-top_menu-v2 .icon-ranobe::before {
+	content: 'book'
+}
+
+.l-top_menu-v2 .icon-clubs::before {
+	content: 'group_work'
+}
+
+.l-top_menu-v2 .icon-collections::before {
+	content: 'widgets'
+}
+
+.l-top_menu-v2 .icon-reviews::before {
+	content: 'rate_review'
+}
+
+.l-top_menu-v2 .menu-icon.forum::before,
+.l-top_menu-v2 .icon-forum::before {
+	content: 'forum'
+}
+
+.l-top_menu-v2 .icon-calendar::before {
+	content: 'today'
+}
+
+.l-top_menu-v2 .menu-icon.contest::before,
+.l-top_menu-v2 .icon-contests::before {
+	content: 'equalizer';
+	transform: scale(-1, 1)
+}
+
+.l-top_menu-v2 .icon-info::before {
+	content: 'info'
+}
+
+.l-top_menu-v2 .icon-socials::before {
+	content: 'share'
+}
+
+.l-top_menu-v2 .menu-icon.moderation::before,
+.l-top_menu-v2 .icon-moderation::before {
+	content: 'flag'
+}
+
+.l-top_menu-v2 .menu-icon.mail::before,
+.l-top_menu-v2 .icon-mail::before {
+	content: 'mail'
+}
+
+.l-top_menu-v2 .icon-achievements::before {
+	content: 'stars'
+}
+
+.l-top_menu-v2 .icon-settings::before {
+	content: 'settings'
+}
+
+.l-top_menu-v2 .icon-site_rules::before {
+	content: 'assignment_late'
+}
+
+.l-top_menu-v2 .icon-faq::before {
+	content: 'help'
+}
+
+.l-top_menu-v2 .icon-sign_out::before {
+	content: 'open_in_new'
+}
+
+.l-top_menu-v2 .icon-people::before {
+	content: 'people'
+}
+
+.l-top_menu-v2 .menu-icon.sign_in::before,
+.l-top_menu-v2 .icon-users::before {
+	content: 'account_circle'
+}
+
+.l-top_menu-v2 .menu-icon.trigger::before,
+.l-top_menu-v2 .icon-other::before {
+	content: 'menu'
+}
+
+.l-top_menu-v2 .menu-icon.trigger::before {
+	width: auto;
+	background: none
+}
+
+@media (min-width: 768px) {
+	.l-top_menu-v2 .icon-anime_list::before,
+	.l-top_menu-v2 .icon-manga_list::before,
+	.l-top_menu-v2 .icon-characters::before {
+		height: auto;
+		margin: 0
+	}
+}
+
+.l-top_menu-v2 .icon-play::before {
+	content: 'play_circle_filled'
+}
+
+.l-top_menu-v2 .icon-articles::before {
+	content: 'desc\_ription'
+}
+
+
+
+.buttons .editor-smiley::before {
+	content: 'insert_emoticon'
+}
+
+
+
+.b-achievements_notifier .achievement .content .name .icon {
+	top: 0;
+	right: 0;
+	left: auto;
+	padding: 8px;
+	margin: 4px;
+	border-radius: 50%;
+	font-size: 24px;
+	cursor: pointer
+}
+
+.b-achievements_notifier .achievement .content .name .icon::before {
+	content: 'close'
+}
+
+
+
+.b-achievements_notifier .achievement .content .name a {
+	text-decoration: none !important
+}
+
+.b-achievements_notifier .achievement.gained .title a::after {
+	content: '!'
+}
+
+.b-achievements_notifier .achievement.lost .title a::before {
+	content: '😱 ';
+	display: inline-block;
+	margin: -8px 4px -8px 0;
+	font-size: 24px
+}
+
+
+.b-user_rate-history .score-time .stars-container .background,
+.b-user_rate-history .score-time .stars-container .score {
+	font-family: 'Material Icons'
+}
+
+
+
+
+[data-icon]::before {
+	content: attr(data-icon);
+	display: inline-block;
+	vertical-align: top;
+	flex-shrink: 0;
+	margin-right: 8px;
+	margin-left: -4px;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden
+}
+
+.p-animes-show .c-info-right .watch-online a.kind span::after,
+.p-mangas-show .c-info-right .watch-online a.kind span::after,
+.p-ranobe-show .c-info-right .watch-online a.kind span::after {
+	content: 'transit_enterexit';
+	display: inline-block;
+	vertical-align: top;
+	position: static;
+	font-family: 'Material Icons';
+	font-size: 16px;
+	transform: rotate(180deg);
+	line-height: 1
+}
+
+.b-animes-menu .site-icon {
+	margin-top: .25rem;
+	margin-right: .75rem
+}
+
+
+
+
+@media (max-width: 599px) {
+	.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+		position: relative
+	}
+	.b-stats_bar .stat_names {
+		position: absolute;
+		top: 0;
+		min-width: 165px;
+		border-radius: .125rem
+	}
+	.b-stats_bar .stat_names:hover {
+		padding: 3rem 0 .5rem;
+		background-color: var(--color-background-dialog);
+		z-index: 10
+	}
+	.b-stats_bar .stat_names::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.32);
+		z-index: -1
+	}
+	.b-stats_bar .stat_names::before {
+		content: 'arrow_drop_down';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 2rem;
+		height: 2rem;
+		padding: .25rem;
+		margin: .5rem .25rem;
+		border-radius: 100%;
+		font-size: 1.5rem;
+		font-family: 'Material Icons';
+		line-height: 1;
+		box-sizing: border-box;
+		pointer-events: auto;
+		text-transform: none;
+		letter-spacing: normal;
+		word-wrap: normal;
+		white-space: nowrap;
+		direction: ltr;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		-moz-osx-font-smoothing: grayscale;
+		font-feature-settings: 'liga'
+	}
+	.b-stats_bar .stat_names:hover .stat_name {
+		display: block
+	}
+	.b-stats_bar .stat_names .stat_name {
+		display: none;
+		padding: 0 1rem
+	}
+	.b-stats_bar .stat_names .stat_name a {
+		display: block;
+		padding: 0 1rem;
+		margin: 0 -1rem
+	}
+	.b-stats_bar .stat_names .stat_name a:hover {
+		background-color: rgba(0, 0, 0, 0.24);
+		text-decoration: none
+	}
+}
+
+
+@media (min-width: 1312px) {
+	.p-user_rates-index .l-content>.mylist {
+		position: fixed;
+		top: 240px;
+		right: auto;
+		width: 56px;
+		margin: 0 0 0 -80px;
+		text-align: left
+	}
+	.p-user_rates-index .l-content>.mylist a {
+		position: relative;
+		display: block;
+		padding: 8px;
+		margin: 4px 0;
+		background: var(--color-background);
+		border-radius: 50% 0 0 50%;
+		color: var(--color-text-hint);
+		font-size: 0;
+		font-weight: normal;
+		line-height: 0
+	}
+	.p-user_rates-index .l-content>.mylist a:hover {
+		text-decoration: none
+	}
+	.p-user_rates-index .l-content>.mylist a::before {
+		display: block;
+		width: 1em;
+		padding: 8px;
+		border-radius: 50%;
+		font-family: 'Material Icons';
+		font-size: 24px;
+		line-height: 1;
+		overflow: hidden;
+		letter-spacing: normal;
+		text-transform: none;
+		word-wrap: normal;
+		white-space: nowrap;
+		direction: ltr;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		-moz-osx-font-smoothing: grayscale;
+		font-feature-settings: 'liga'
+	}
+	.p-user_rates-index .l-content>.mylist a:hover::before,
+	.p-user_rates-index .l-content>.mylist a.selected::before {
+		background: var(--color-primary);
+		color: var(--color-text-on-primary)
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='planned']::before {
+		content: 'today'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='watching']::before {
+		content: 'play_arrow'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='rewatching']::before {
+		content: 'replay'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='completed']::before {
+		content: 'done'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='on_hold']::before {
+		content: 'inbox'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='dropped']::before {
+		content: 'delete'
+	}
+	.p-user_rates-index .l-content>.mylist a::after {
+		display: none
+	}
+	.p-user_rates-index .l-content>.mylist a span {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 2px 4px;
+		margin: 6px 4px;
+		background: var(--color-accent);
+		border-radius: 2px;
+		color: var(--color-text-on-accent);
+		font-size: 14px;
+		font-weight: bold;
+		line-height: .8
+	}
+	.p-user_rates-index .l-content>.mylist a span::before,
+	.p-user_rates-index .l-content>.mylist a span::after {
+		display: none
+	}
+}
