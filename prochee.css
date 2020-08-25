@@ -107,3 +107,4 @@ body:after {
 .b-nothing_here{
   display: none;
 }
+.tooltip-inner { background: none repeat scroll 0 0 rgba(var(--menu-back), 1);}
