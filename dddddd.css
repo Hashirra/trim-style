@@ -1,0 +1,365 @@
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("truetype"), url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2")
+}
+
+
+@media (min-width: 768px) {
+	.l-top_menu-v2 .menu-icon:hover,
+	.l-top_menu-v2 .menu-dropdown:hover>span {
+		background-color: var(--color-menu-background-hover)
+	}
+}
+
+
+@media (max-width: 767px) {
+	.l-top_menu-v2 .submenu>a::before {
+		margin-right: 32px
+	}
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.text {
+	display: flex;
+	position: static
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.unread {
+	margin-left: auto;
+	padding-left: .5em;
+	color: inherit;
+	font-size: .875em
+}
+
+
+.l-top_menu-v2 .icon-anime_list::before {
+	content: 'video_library'
+}
+
+.l-top_menu-v2 .icon-manga_list::before {
+	content: 'library_books'
+}
+
+.l-top_menu-v2 .icon-characters::before {
+	content: 'face'
+}
+
+
+
+.l-top_menu-v2 .icon-home::before {
+	content: 'home'
+}
+
+.l-top_menu-v2 .icon-anime::before {
+	content: 'ondemand_video'
+}
+
+.l-top_menu-v2 .icon-manga::before {
+	content: 'photo_album'
+}
+
+.l-top_menu-v2 .icon-ranobe::before {
+	content: 'book'
+}
+
+.l-top_menu-v2 .icon-clubs::before {
+	content: 'group_work'
+}
+
+.l-top_menu-v2 .icon-collections::before {
+	content: 'widgets'
+}
+
+.l-top_menu-v2 .icon-reviews::before {
+	content: 'rate_review'
+}
+
+.l-top_menu-v2 .menu-icon.forum::before,
+.l-top_menu-v2 .icon-forum::before {
+	content: 'forum'
+}
+
+.l-top_menu-v2 .icon-calendar::before {
+	content: 'today'
+}
+
+.l-top_menu-v2 .menu-icon.contest::before,
+.l-top_menu-v2 .icon-contests::before {
+	content: 'equalizer';
+	transform: scale(-1, 1)
+}
+
+.l-top_menu-v2 .icon-info::before {
+	content: 'info'
+}
+
+.l-top_menu-v2 .icon-socials::before {
+	content: 'share'
+}
+
+.l-top_menu-v2 .menu-icon.moderation::before,
+.l-top_menu-v2 .icon-moderation::before {
+	content: 'flag'
+}
+
+.l-top_menu-v2 .menu-icon.mail::before,
+.l-top_menu-v2 .icon-mail::before {
+	content: 'mail'
+}
+
+.l-top_menu-v2 .icon-achievements::before {
+	content: 'stars'
+}
+
+.l-top_menu-v2 .icon-settings::before {
+	content: 'settings'
+}
+
+.l-top_menu-v2 .icon-site_rules::before {
+	content: 'assignment_late'
+}
+
+.l-top_menu-v2 .icon-faq::before {
+	content: 'help'
+}
+
+.l-top_menu-v2 .icon-sign_out::before {
+	content: 'open_in_new'
+}
+
+.l-top_menu-v2 .icon-people::before {
+	content: 'people'
+}
+
+.l-top_menu-v2 .menu-icon.sign_in::before,
+.l-top_menu-v2 .icon-users::before {
+	content: 'account_circle'
+}
+
+.l-top_menu-v2 .menu-icon.trigger::before,
+.l-top_menu-v2 .icon-other::before {
+	content: 'menu'
+}
+
+.l-top_menu-v2 .menu-icon.trigger::before {
+	width: auto;
+	background: none
+}
+
+@media (min-width: 768px) {
+	.l-top_menu-v2 .icon-anime_list::before,
+	.l-top_menu-v2 .icon-manga_list::before,
+	.l-top_menu-v2 .icon-characters::before {
+		height: auto;
+		margin: 0
+	}
+}
+
+.l-top_menu-v2 .icon-play::before {
+	content: 'play_circle_filled'
+}
+
+.l-top_menu-v2 .icon-articles::before {
+	content: 'desc\_ription'
+}
+
+
+
+.buttons .editor-smiley::before {
+	content: 'insert_emoticon'
+}
+
+
+
+.b-achievements_notifier .achievement .content .name .icon {
+	top: 0;
+	right: 0;
+	left: auto;
+	padding: 8px;
+	margin: 4px;
+	border-radius: 50%;
+	font-size: 24px;
+	cursor: pointer
+}
+
+.b-achievements_notifier .achievement .content .name .icon::before {
+	content: 'close'
+}
+
+
+
+.b-achievements_notifier .achievement .content .name a {
+	text-decoration: none !important
+}
+
+.b-achievements_notifier .achievement.gained .title a::after {
+	content: '!'
+}
+
+.b-user_rate-history .score-time .stars-container .background,
+.b-user_rate-history .score-time .stars-container .score {
+	font-family: 'Material Icons'
+}
+
+
+
+
+@media (max-width: 599px) {
+	.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+		position: relative
+	}
+	.b-stats_bar .stat_names {
+		position: absolute;
+		top: 0;
+		min-width: 165px;
+		border-radius: .125rem
+	}
+	.b-stats_bar .stat_names:hover {
+		padding: 3rem 0 .5rem;
+		background-color: var(--color-background-dialog);
+		z-index: 10
+	}
+	.b-stats_bar .stat_names::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.32);
+		z-index: -1
+	}
+	.b-stats_bar .stat_names::before {
+		content: 'arrow_drop_down';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 2rem;
+		height: 2rem;
+		padding: .25rem;
+		margin: .5rem .25rem;
+		border-radius: 100%;
+		font-size: 1.5rem;
+		font-family: 'Material Icons';
+		line-height: 1;
+		box-sizing: border-box;
+		pointer-events: auto;
+		text-transform: none;
+		letter-spacing: normal;
+		word-wrap: normal;
+		white-space: nowrap;
+		direction: ltr;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		-moz-osx-font-smoothing: grayscale;
+		font-feature-settings: 'liga'
+	}
+	.b-stats_bar .stat_names:hover .stat_name {
+		display: block
+	}
+	.b-stats_bar .stat_names .stat_name {
+		display: none;
+		padding: 0 1rem
+	}
+	.b-stats_bar .stat_names .stat_name a {
+		display: block;
+		padding: 0 1rem;
+		margin: 0 -1rem
+	}
+	.b-stats_bar .stat_names .stat_name a:hover {
+		background-color: rgba(0, 0, 0, 0.24);
+		text-decoration: none
+	}
+}
+
+
+@media (min-width: 1312px) {
+	.p-user_rates-index .l-content>.mylist {
+		position: fixed;
+		top: 240px;
+		right: auto;
+		width: 56px;
+		margin: 0 0 0 -80px;
+		text-align: left
+	}
+	.p-user_rates-index .l-content>.mylist a {
+		position: relative;
+		display: block;
+		padding: 8px;
+		margin: 4px 0;
+		background: var(--color-background);
+		border-radius: 50% 0 0 50%;
+		color: var(--color-text-hint);
+		font-size: 0;
+		font-weight: normal;
+		line-height: 0
+	}
+	.p-user_rates-index .l-content>.mylist a:hover {
+		text-decoration: none
+	}
+	.p-user_rates-index .l-content>.mylist a::before {
+		display: block;
+		width: 1em;
+		padding: 8px;
+		border-radius: 50%;
+		font-family: 'Material Icons';
+		font-size: 24px;
+		line-height: 1;
+		overflow: hidden;
+		letter-spacing: normal;
+		text-transform: none;
+		word-wrap: normal;
+		white-space: nowrap;
+		direction: ltr;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		-moz-osx-font-smoothing: grayscale;
+		font-feature-settings: 'liga'
+	}
+	.p-user_rates-index .l-content>.mylist a:hover::before,
+	.p-user_rates-index .l-content>.mylist a.selected::before {
+		background: var(--color-primary);
+		color: var(--color-text-on-primary)
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='planned']::before {
+		content: 'today'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='watching']::before {
+		content: 'play_arrow'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='rewatching']::before {
+		content: 'replay'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='completed']::before {
+		content: 'done'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='on_hold']::before {
+		content: 'inbox'
+	}
+	.p-user_rates-index .l-content>.mylist a[data-id='dropped']::before {
+		content: 'delete'
+	}
+	.p-user_rates-index .l-content>.mylist a::after {
+		display: none
+	}
+	.p-user_rates-index .l-content>.mylist a span {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 2px 4px;
+		margin: 6px 4px;
+		background: var(--color-accent);
+		border-radius: 2px;
+		color: var(--color-text-on-accent);
+		font-size: 14px;
+		font-weight: bold;
+		line-height: .8
+	}
+	.p-user_rates-index .l-content>.mylist a span::before,
+	.p-user_rates-index .l-content>.mylist a span::after {
+		display: none
+	}
+}
