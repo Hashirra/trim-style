@@ -1,0 +1,109 @@
+/*Фоновая пикча ( не в шапке )*/
+body:after {
+  background-image: url(https://i.ibb.co/hgRtgNT/anime-anime-girls-night-illustration-Shinjou-Akane-Akane-Shinjou-dark-background-boobs-ecchi-selecti.png);
+}
+
+@media screen and (min-width: 1px) {
+  .correct-mob-version {
+    color: normal;
+  }
+}
+/*Фоновая пикча( в шапке )*/
+@media screen and (min-width: 1200px) {
+  #profiles_show .profile-head {
+    background-image: url("https://i.ibb.co/hgRtgNT/anime-anime-girls-night-illustration-Shinjou-Akane-Akane-Shinjou-dark-background-boobs-ecchi-selecti.png");
+  }
+}
+
+@media screen and (min-width: 1px) {
+  html:root {
+    --white-color: 255, 255, 255;
+    --light-color: 191, 197, 208;
+    --dark-color: 159, 169, 181;
+    --bright-color: 173, 191, 222;
+    --dull-color: 111, 123, 125;
+    --input-color: 100, 106, 115;
+    --hover-bottoms-1: 35, 37, 43;
+    --buttoms-color: 67, 82, 101;
+    --hover-buttoms-2: 128, 128, 192;
+    --very-high-rating: 41, 41, 41;
+    --high-rating: 41, 41, 41;
+    --average-rating: 41, 41, 41;
+    --small-rating: 41, 41, 41;
+    --time-filled: 41, 41, 41;
+    --time-empty: 68, 68, 68;
+    --anime-inprocess: 104, 124, 204;
+    --anime-complete: 71, 94, 199;
+    --manga-inprocess: 166, 166, 210;
+    --manga-complete: 128, 128, 192;
+    --hover-color: 128, 128, 192;
+    --shadows-color: 121, 140, 171;
+    --block-color: 65, 71, 82;
+    --menu-back: 41, 41, 41;
+    --nick-cover: 81, 94, 103;
+    --popup-color: 57, 63, 72;
+    --hundred: 1;
+  }
+  /*Замена надписей снизу*/
+.l-footer:before {
+    content: 'Theme by Shliapa';
+}
+
+/*Время за аниме и мангой*/
+.p-profiles-show .lifetime {
+    display: none;
+}
+  /*История*/
+.p-profiles .profile-head .c-history {
+    display: none;
+}
+ .p-profiles .profile-head .c-history .b-block_list {
+    display: none;
+} 
+  .p-profiles .profile-head .c-history .entry {
+    display: none;
+} 
+  .menu-icon .contest {
+    display: ;
+}
+/* Полностью убираем иконку */
+.l-top_menu-v2 .logo-container .glyph {
+  display: none;
+}
+/* Меняем название в логотипе на свою картинку */
+.l-top_menu-v2 .logo-container .logo {
+  background-image: url('https://i.ibb.co/FXDhSZK/1.png');
+  height: px;
+  margin-top: 3px;
+}
+.b-spoiler_block > button {
+  background-color: rgb(65 71 82 / 80%);
+  color: #78B0C8;
+  border-radius: 8px 8px 0 0;
+}
+.b-spoiler_block > button:hover {
+  background-color: rgb(33 33 33 / 90%);
+}
+.b-spoiler_block > button:active {
+  background: rgb(255 2 2);
+}
+.b-spoiler_block > div {
+  background-color: rgb(31 33 35 / 90%);
+  border-left: 4px solid #3C4049;
+  
+}
+.b-spoiler_block.is-opened > button:after {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.b-spoiler_block > button:after {
+  -webkit-transition: margin 0.25s, -webkit-transform 0.25s;
+  transition: margin 0.25s, -webkit-transform 0.25s;
+  transition: transform 0.25s, margin 0.25s;
+  transition: transform 0.25s, margin 0.25s, -webkit-transform 0.25s;
+}
+  
+.b-nothing_here{
+  display: none;
+}
